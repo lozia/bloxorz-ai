@@ -179,7 +179,10 @@ class BloxorzProblem(Search_problem):
         else:
             dY = eY - sY1
         if dX < 3 and dY < 3:
-            h = 3
+            if dX == 0 or dY == 0 or dX + dY == 3:
+                h = 1
+            else:
+                h = 3
         else:
             h = (dX + dY) / 2
         return h
