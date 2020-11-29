@@ -6,12 +6,12 @@ Description of my program:
 
 This program used the Pandas model to generate the html table.
 
-Q1) Why doesn't it work?
+Q1) Why doesn't DFS work?
 DFS doesn't work since it isn't the shortest path, got a->b->d->g.
 DFS will also get stuck in an infinite loop.
 
 Q2) Can you solve your board from above? 
-My board is a dead end, however, my method passed the test.
+My board is objectively unsolvable, however, my method passed the test.
 
 Q3) What about the boards in boards.zip?
 I can solve those who have a solution.
